@@ -18,6 +18,7 @@
     "e2e:headless": "playwright test",
     "e2e:ui": "playwright test --ui",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "plop": "plop",
     "coupling-graph": "npx madge --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|instrumentation.ts|e2e/|README.md|.storybook/|.eslintrc.js' --image graph.svg"
   },
   "dependencies": {
@@ -46,6 +47,7 @@
     "@t3-oss/env-nextjs": "^0.7.1",
     "@vercel/otel": "^0.3.0",
     "class-variance-authority": "^0.7.0",
+    "inquirer-directory": "^2.2.0",
     "lodash": "^4.17.21",
     "next": "^14.0.3",
     "next-compose-plugins": "^2.2.1",
@@ -100,6 +102,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "mkdirp": "^3.0.1",
     "patch-package": "^8.0.0",
+    "plop": "^4.0.1",
     "postcss": "^8.4.31",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "3.0.3",
