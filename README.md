@@ -1,4 +1,4 @@
-# Next.js Boilerplate | </br>_Extended Version_ </br>
+# Next.js Boilerplate | </br>_Extended_ </br>
 
 #### [![GitHub Actions Workflow Status][check-workflow-badge]][check-workflow-badge-link] [![GitHub License][github-license-badge]][github-license-badge-link]
 
@@ -38,6 +38,13 @@ With this template, you get all the awesomeness you need:
 ## Extensions
 
 - **[Plop](https://plopjs.com/)** - Code generator for faster development
+
+## Components
+
+- **ShowIf** - Conditional rendering component
+
+
+<br><br>
 
 ## Table of Contents
 
