@@ -10,7 +10,6 @@ describe("ShowIf", () => {
     )
 
     const element = screen.getByText("ShowIf")
-
     expect(element).toBeInTheDocument()
   })
 })
