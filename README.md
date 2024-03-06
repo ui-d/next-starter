@@ -3,7 +3,7 @@
 #### [![GitHub Actions Workflow Status][check-workflow-badge]][check-workflow-badge-link] [![GitHub License][github-license-badge]][github-license-badge-link]
 
 [![Blazity][made-by-blazity-badge]][made-by-blazity-badge-link]  
-extended by @ui-d
+extended by **[Dawid Nawrocki](https://github.com/ui-d)**
 
 Welcome to the _Next.js Enterprise Boilerplate_, an open-source template for enterprise projects! It's loaded with features that'll help you build a high-performance, maintainable, and enjoyable app. We've done all the heavy lifting for you, so sit back, relax, and get ready to conquer the world with your incredible app! 🌍
 

@@ -47,12 +47,6 @@ export const reactUiComponentGenerator = {
         path: `${basePath}/{{pascalCase name}}/index.ts`,
         pattern: '/* PLOP_INJECT_EXPORT */', // Adjust this pattern to match your export injection point
         template: `export { {{pascalCase name}} } from './{{pascalCase name}}';`,
-      },
-      {
-        type: 'modify',
-        path: 'src/ui/index.ts',
-        pattern: '/* PLOP_INJECT_EXPORT */',
-        template: `export { {{pascalCase name}} };\n/* PLOP_INJECT_EXPORT */`,
       }
     ];
   },
